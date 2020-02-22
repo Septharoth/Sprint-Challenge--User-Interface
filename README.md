@@ -34,15 +34,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is using HTML Tags that provide meaning to each element within the website.  Using Semantic HTML you can improve SEO as it "enhances accessibility, searchability, internationalization, and interoperability."  Meaning you will have higher ranking in search engines, and the website will be available to a wider audience.  It provides better structure and improved readability for other developers as well.
+
+(I did actually quote Bruce Lawson here, it explains it very well and I honestly believe that quote would assist many in understanding how Semantic HTML can benefit both the end-user and the developer.  I personally would have used <div> tags for everything, had I not actually read about the importance of Semantic HTML and how beneficial it is to use.)
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+(Can I name more than 2?)
+Using display: block will display the element.. literally as it says, as a block.  You have whitespace above and below it, and it will not allow you to have any elements next to it unless you order it as such.
+
+When using display: inline you will have your elements displayed as it says.. inline, usually inside of a block element.
+
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are the Margin, Border, Padding, and Content.  In that order specifically.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+The cross axis.  By default, this will be vertical.
+
 
 5. Explain why git is valuable to a team of developers.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+Git is valuable to a team of developers because you not only can keep track of each individual's work, you can go back and revert to old code, you can have multiple people on the same project with their own branch to work on different features and fixes without worrying about interrupting their partner(s)' work or breaking something they are doing because of any issue within your own code, it becomes invaluable when you have two or more developers all working on the same project and let's say one person's code conflicts with another causing something to break. Normally, you might not know what's breaking it because you may not be aware of what they are working on or what they have done and you could end up sitting here going through your code wasting time looking for something that isn't even because of code you wrote.  Each developer will have their own local repository with a history of commits that belong to them.  A new branch can be added, an old one can be closed, the team can still work on their own local repository.  You have the ability to track all the changes within a project and use Pull Requests to merge their branch into another.  And the team scaling capabilities using Git are immense.
+
+(I can honestly go on about this for quite a while, but I'm running short on time to submit my project)
+
+## Just some things I want to add
+
+I did use google for assitance on my answers to some of these questions.  Particularly on the explanation of Semantic HTML and the advantages of Git.  I personally learned more about these things in doing so, and I believe it helped me better understand them as a student and a developer alike.  If for any reason this is not acceptable, I can and will revise my answers.
+
 
 ## Project Set Up
 
